@@ -1,0 +1,24 @@
+
+
+
+.bn{
+    width: 80%;
+    margin: 50px auto;
+    color: rgba(255, 255, 255, 0.7);
+    font: 16px/1 "Open Sans", sans-serif;
+    background: #494f51;
+    text-decoration: none;
+  }
+  
+  
+  .bn{
+    margin: 0 0 50px;
+    font-weight: normal;
+    color: #fff;
+    transition: all 0.3s ease;
+  }
+  .bn:hover {
+    text-shadow: 1px 1px 0 #00ae26, 2px 2px 0 #99bec7, 3px 3px 0 #242424;
+    transform: translate(-3px, -3px);
+  }
+  

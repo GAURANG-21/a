@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            background: rgb(35,29,144);
+background: radial-gradient(circle, rgba(35,29,144,1) 29%, rgba(28,28,64,1) 54%); color: white;
+color:rgba(35,29,144,1);
+border-top: 20px solid black;
+border-bottom: 13px solid black;
+    
+        }
+        .container .box{
+            position:relative;
+            width: 20rem;
+            height:20rem;
+            margin: 3rem;
+        }
+        .container .box:hover .Imgbox{
+            transform: translate(-1.5rem, -1.5rem);
+            
+        }
+        .container .box:hover .content
+        {
+            transform: translate(3.5rem, 3.5rem);
+            margin-top: 250px;
+            color:white;
+            
+            
+        } 
+        .Imgbox{
+            position:absolute;
+            top: 0;
+            left: 0;
+            width:100%;
+            height:100%;
+            z-index: 2;
+            transition: all 0.5s ease-in-out;
+            border: 6px solid black;
+            border-radius: 50%;
+            box-shadow: 10px azure;
+        }
+        .Imgbox img{
+            width: 20rem;
+            height: 20rem;
+            object-fit: cover;
+            resize: both;
+            border-radius: 50%;
+            
+        }
+        .tell:hover{
+            background-color: bisque;
+        }
+        .btn{
+            font-size: 20px;
+            margin-left: 20px;
+            text-decoration: none;
+            color: azure;
+        }
+        .navbar li{
+            float: left;
+            list-style: none;
+            padding: 3px 3px;
+            margin: 13px 15px;
+        }
+        .navbar ul{
+            overflow: auto ;
+        }
+        .navbar li a{
+            padding: 10px;
+            text-decoration: none;
+
+            color: black;
+            font-size: 20px;
+            color: white;
+        }
+        .search{
+            float:right;
+            color: white;
+            padding:12px 75px;
+        }
+        .navbar input{border:10px solid black;
+        border-radius: 3px;
+        padding:4px;
+    }
+    .navbar input{
+        border: 2px solid black;
+        border-radius: 6px;
+        padding: 3px;
+    }
+    .navbar a:hover{
+        color: aqua;
+        border: 2px dotted white;
+    }
+    .navbar input:hover{color: aqua;}
+    .text
+    {
+        font-size: 2em;
+        
+    }
+    #great{
+        border: 2px solid black;
+    }
+    .img1{
+        float: right;
+        width: 700px;
+        height: 500px;
+        border-radius: 40%;
+        border: 20px double black;
+    }
+    .img1:hover
+    {
+        border: 20px dotted black;
+    }
+    </style>
+    <link rel="stylesheet" href="hover.css">
+    <link rel="stylesheet" href="practice.css">
+</head>
+<body style="background: rgb(35,29,144);
+background: radial-gradient(circle, rgba(35,29,144,1) 29%, rgba(28,28,64,1) 54%); color: white;">
+    <b>
+        <header>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="t.html" href="hover.html" class="bn"> Home</a></li>
+                    <li><a href="t.html" href="hover.html" class="bn"> Expectation v/s Reality</a></li>
+                    <li><a href="t.html" href="hover.html" class="bn"> Contact me</a></li>
+                    <div class="search">
+                    <input type="text" name="search" id="search" placeholder="search this website">
+                </div>
+                </ul>
+                 </nav>
+                </header>
+    </b>
+    <div class="tell">
+    <div class="container">
+        <div class="box">
+            <div class="Imgbox">
+                <a href="https://www.codechef.com/START76D/problems/MAKEARRAYODD">
+                    <img src="Image.jpg" alt="No photo found"  >
+
+                </a>
+                
+            </div>
+            <div class="content">
+                <h2> Gaurang  Agarwal <br>
+                <span>House of Geeks Member</span>
+                <br>
+                <span style="margin: left: 50px;">(Who knows?)</span>
+            </h2>
+            </div>
+        </div>
+    </div>
+</div>
+    <br><br><br>
+    <div style="color: whitesmoke; display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px; padding-bottom:30px; margin-bottom: 50px; text-decoration: none;"><u style="color: black; font-size: 2em;">ABOUT ME</u></div>
+    <div id="great">
+    <p class="text">This is <em id="bold">Gaurang Agarwal</em> of Indian Institute of Information Technology, Ranchi.</p>
+    <p class="text">I am pursuing Computer Science and Engineering, Data Science and Artificial Intelligence.</p>
+    <p class="text">Being a sports enthusiast, I love playing badminton, cricket and chess.</p>
+    <p class="text">I am a states level badminton for two consecutive years.</p></div>
+    <div style="font-size: 30px;">
+        <br><br>
+        <img class=" img1"src="https://i.ytimg.com/vi/HRf9Kvnyvlg/maxresdefault.jpg" alt="No available">
+<p style="float: left;">I did my schooling from St. Peter's College, Agra.</p>
+<p style="float: left;">I secured 97% in my class 12th and 95% in class 10th.</p></div>
+
+</body>
+</html>
